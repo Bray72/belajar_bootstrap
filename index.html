@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FKv_oTeMsvkN1s_ab2Z8TZdmB4UlA3KZYQ&s" type="image/x-icon">
+    <title>SemogA+</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    <style>
+        .fade-in {
+            opacity: 0; /* Awalnya elemen tidak terlihat */
+            transform: translateY(20px); /* Geser elemen ke bawah 20px */
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Animasi halus */
+        }
+
+        .fade-in.visible {
+            opacity: 1; /* Elemen menjadi terlihat */
+            transform: translateY(0); /* Kembalikan ke posisi semula */
+        }
+    </style>
+  </head>
+  <body style="background-color: #EEEEEE;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #1D1616;">
+        <div class="container">
+            <img width="30px" class="me-2 rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FKv_oTeMsvkN1s_ab2Z8TZdmB4UlA3KZYQ&s" alt="">
+            <a class="navbar-brand" href="#">SemogA+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ZFkAcZDBGt1ZPBAoWJ_EyRZXlLCO8Y0K6g&s');" class="hero mt-5 py-5">
+        <div class="container fw-bold text-light fs-1 text-center"> 
+            <img class="rounded-circle mb-3" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FKv_oTeMsvkN1s_ab2Z8TZdmB4UlA3KZYQ&s" alt="">
+            <h1>Selamat Datang di SemogA+</h1>
+            <p>Solusi terbaik untuk kebutuhan belajar Coding Anda</p>
+            <a href="#services" class="btn btn-danger">Lihat Lebih Lanjut</a>
+        </div>
+    </header>
+
+    <section id="services" class="py-4">
+        <div class="container">
+            <h2 class="text-center py-3">Modul</h2>
+            <div class="row text-center fade-in">
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnYQ4Gc6_FrmvIVUDgaaSIWoy-Tym6sSmTnQ&s" alt="">
+                        <p class="pt-1">Kelas Dasar Html</p>
+                    </a>
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://quizizz.com/media/resource/gs/quizizz-media/quizzes/84f3e253-f7cd-4e60-8ce6-99c07315d795" alt="">
+                        <p class="pt-1">Kelas Dasar CSS</p>
+                    </a>
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png" alt="">
+                        <p class="pt-1">Kelas Dasar JavaScript</p>
+                    </a>
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://blogs.powercode.id/wp-content/uploads/2024/03/Python-Symbol-1.png" alt="">
+                        <p class="pt-1">Kelas Dasar Python</p>
+                    </a>
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://archive.proxsisgroup.com/wp-content/uploads/2019/08/104-1040733_kotlin-java-programming-language-logo-clipart-1024x598.png" alt="">
+                        <p class="pt-1">Kelas Dasar Java</p>
+                    </a>
+                    <a href="#" class="col-md-4 text-dark text-decoration-none rounded">
+                        <img class="rounded" width="150px" src="https://www.gamelab.id/uploads/news/berita-681-mengenal-lebih-jauh-tentang-dart-20210417-093153.jpg" alt="">
+                        <p class="pt-1">Kelas Dasar Dart</p>
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <div class="row">
+            <h2 class="text-center pb-4">Tentang Kami</h2>
+            <p>Lokasi kami berada di ......</p>
+            <iframe class="col-md-6" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7548813418316!2d112.
+            78166467357127!3d-7.268710871418434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7
+            fa21a3515291%3A0x3edf1522ff735924!2sUniversitas%20Airlangga%20-%20Kampus%20MERR%20C!5e0!3m2!
+            1sid!2sid!4v1742307148411!5m2!1sid!2sid" width="500px" height="400px" style="border:0;" allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-md-6">
+                <h3 class="text-center pb-5">Kontak Kami</h3>
+                <div class="d-flex justify-content-center">
+                    <img width="100px" src="https://pontianakinfo.disway.id/upload/640d97bdb68b7ef7398e7dddc55a6460.jpeg" alt="Gambar" class="img-fluid rounded">
+                    <img width="100px" src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="" class="img-fluid rounded">
+                    <img width="100px" src="https://img.freepik.com/premium-psd/facebook-social-media-icon-3d_466778-4384.jpg" alt="Gambar" class="img-fluid rounded">
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white text-center py-3"  style="background-color: #1D1616;">
+        <p>&copy; 2025 SemogA+. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+  <script>
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const elements = document.querySelectorAll('.fade-in');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible'); // Tambahkan class 'visible' saat elemen masuk viewport
+                }
+            });
+        }, {
+            threshold: 0.1 // Sesuaikan threshold sesuai kebutuhan
+        });
+
+        elements.forEach(element => {
+            observer.observe(element); // Observasi setiap elemen dengan class 'fade-in'
+        });
+        });
+  </script>
+</html>
